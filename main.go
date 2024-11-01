@@ -15,9 +15,8 @@ func main() {
 	app := NewApp()
 
 	err := wails.Run(&options.App{
-		Title:  "YouTube Music",
-		Width:  1024,
-		Height: 768,
+		Title:            "YouTube Music",
+		WindowStartState: options.Maximised,
 		AssetServer: &assetserver.Options{
 			Assets: assets,
 		},
