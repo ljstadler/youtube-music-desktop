@@ -1,0 +1,14 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["config:recommended", "group:all"],
+    "dependencyDashboard": false,
+    "automerge": true,
+    "automergeType": "branch",
+    "ignoreTests": true,
+    "packageRules": [
+        {
+            "matchDatasources": ["golang-version"],
+            "rangeStrategy": "bump"
+        }
+    ]
+}
