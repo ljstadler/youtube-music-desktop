@@ -1,6 +1,6 @@
 module youtube-music-desktop
 
-go 1.24.0
+go 1.24.1
 
 require github.com/wailsapp/wails/v2 v2.10.1
 
